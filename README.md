@@ -1,5 +1,5 @@
 # Weather App 🌤️
-A modern weather application built with React, Vite, and Redux that provides real-time weather data. Users can search for any city and get up-to-date weather conditions such as temperature, humidity, wind speed, and more. The app supports both metric and imperial units and allows users to switch between them easily.
+A modern weather application built with React, Vite, and Redux that provides real-time weather data. Users can search for any city and get up-to-date weather conditions such as temperature, humidity, wind speed, and more.
 
 # Features ✨
 🔍 City Search: Search for real-time weather data of any city.
