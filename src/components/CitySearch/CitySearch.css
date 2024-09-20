@@ -1,0 +1,54 @@
+/* City Search Form */
+.box form {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    height: 56px;
+    background: var(--color2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .box form:focus-within {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box form label {
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color5);
+  }
+  
+  .box form .city-input {
+    width: calc(100% - 120px);
+    height: 100%;
+    border: none;
+    padding: 0 20px;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+  }
+  
+  .box form button {
+    height: 100%;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: none;
+    background-color: var(--color5);
+    color: var(--color2);
+    width: 120px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .box form button:hover {
+    background-color: #0288D1;
+  }
+  

@@ -1,0 +1,71 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* General CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.02em;
+}  
+
+:root {
+  --color1: #E3F2FD;
+  --color2: #FFFFFF;
+  --color3: #B0BEC5;
+  --color4: #FFC107;
+  --color5: #03A9F4;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+} 
+
+body {
+  background-color: var(--color1);
+}
+
+/* Background */
+.background {
+  background: linear-gradient(135deg, #E3F2FD, #BBDEFB, #90CAF9);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Box */
+.background .box {
+  width: 95%;
+  max-width: 1000px;
+  border-radius: 24px;
+  overflow: hidden;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+}
+
+.background .box:hover {
+  transform: translateY(-5px);
+}
+/* Loader */
+.loader {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+/* Media Query on Box */
+@media (max-width: 768px) {
+  .background .box {
+    padding: 30px;
+  }
+}
